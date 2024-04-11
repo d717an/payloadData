@@ -1,0 +1,32 @@
+collector.js:2 Uncaught TypeError: Class extends value undefined is not a constructor or null
+    at ./node_modules/@smithy/node-http-handler/dist-es/stream-collector/collector.js (collector.js:2:32)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at ./node_modules/@smithy/node-http-handler/dist-es/stream-collector/index.js (collector.js:11:1)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at ./node_modules/@smithy/node-http-handler/dist-es/index.js (get-transformed-headers.js:9:34)
+    at __webpack_require__ (bootstrap:24:1)
+    at fn (hot module replacement:61:1)
+    at ./src/payload/proxyS3Adapter.ts (payload.config.ts:121:3)
+./node_modules/@smithy/node-http-handler/dist-es/stream-collector/collector.js @ collector.js:2
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./node_modules/@smithy/node-http-handler/dist-es/stream-collector/index.js @ collector.js:11
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./node_modules/@smithy/node-http-handler/dist-es/index.js @ get-transformed-headers.js:9
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./src/payload/proxyS3Adapter.ts @ payload.config.ts:121
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./src/payload/payload.config.ts @ populatePublishedAt.ts:15
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./node_modules/payload/dist/admin/Root.js @ Root.js:15
+__webpack_require__ @ bootstrap:24
+fn @ hot module replacement:61
+./node_modules/payload/dist/admin/index.js @ index.js:9
+__webpack_require__ @ bootstrap:24
+(anonymous) @ startup:5
